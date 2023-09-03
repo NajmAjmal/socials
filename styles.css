@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+}
+
+.social-media {
+    display: flex;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+}
+
+.square:hover {
+    transform: scale(1.05);
+}
+
+.square img {
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    alt: "";
+    border-radius: 10px; /* Add this line to give the image a curved corner */
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+    background-color: #f0f0f0; /* Footer background color */
+    text-align: center;
+    padding-bottom: 10px
+}
