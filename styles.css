@@ -47,3 +47,52 @@ footer {
     text-align: center;
     padding-bottom: 10px
 }
+
+/* Added some css for flex boxes for mobile users. flex boxes will be displayed vertically with scroll */
+@media only screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .social-media {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* Added some css for flex boxes for tablet users. flex boxes will be displayed vertically with scroll */
+@media only screen and (min-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .social-media {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* Added some css for flex boxes for desktop users. flex boxes will be displayed horizontally */
+@media only screen and (min-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .social-media {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
